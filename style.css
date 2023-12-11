@@ -87,7 +87,7 @@ a{
 }
 
 
-.left-element button{
+button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,6 +103,7 @@ a{
     color : #ffffff;
     font-weight: bold;
 }
+
 
 
 .information-title{
@@ -156,4 +157,38 @@ a{
     font-weight: bold;
     margin-left: auto;
     width : 750px;
+}
+
+.card{
+    border-radius: 12px;
+    margin: 100px auto;
+    width: 1000px;
+    background-color: #3882F6 ;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding : 40px 50px;
+}
+
+.card div{
+    color : #F9FAF8;
+}
+
+.call{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.card button{
+    border: 2px solid #ffffff;
+}
+
+.footer{
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
 }
