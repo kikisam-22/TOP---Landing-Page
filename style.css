@@ -25,6 +25,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top : 24px;
     padding-bottom : 50px;
     margin-left: auto;
     margin-right: auto;
@@ -132,4 +133,27 @@ a{
     width: 150px;
     border-radius: 12px;
     border: 4px solid #3882F6
+}
+
+.quote{
+    padding : 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.author{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    width : 750px;
 }
