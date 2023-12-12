@@ -54,7 +54,6 @@ a{
 }
 
 .hero{
-    flex: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,15 +67,16 @@ a{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 500px;
     gap: 16px;
     height: 300px;
-    flex : auto;
 }
 
 .hero img{
     display: flex;
     flex-shrink: 0 1 auto;
     max-width: 1000px;
+    min-width: 700px;
     height: 200px;
 }
 
