@@ -23,12 +23,11 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap : 450px;
+    justify-content: space-between;
     padding-top : 24px;
     padding-bottom : 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 225px;
+    padding-right: 225px;
     flex-wrap: wrap;
 }
 
@@ -58,8 +57,11 @@ a{
     align-items: center;
     justify-content: space-around;
     gap : 30px;
-    padding: 0 325px;
-    flex-wrap: wrap;
+    padding: 0 225px;
+}
+
+.hero>*{
+    flex: initial;
 }
 
 .left-element{
@@ -67,16 +69,12 @@ a{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 500px;
     gap: 16px;
     height: 300px;
 }
 
 .hero img{
-    display: flex;
-    flex-shrink: 0 1 auto;
-    max-width: 1000px;
-    min-width: 700px;
+    width: 1000px;
     height: 200px;
 }
 
