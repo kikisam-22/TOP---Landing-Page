@@ -68,7 +68,6 @@ a{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 16px;
     height: 300px;
 }
