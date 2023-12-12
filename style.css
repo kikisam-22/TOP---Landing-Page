@@ -17,48 +17,50 @@ body{
     color : #ffffff;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     padding-bottom : 50px;
 }
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap : 450px;
     padding-top : 24px;
     padding-bottom : 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1245px;
+    padding-left: 100px;
+    padding-right: 100px;
     flex-wrap: wrap;
 }
 
 .logo{
+    display: flex;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    flex-shrink: 0 1 auto;
 }
 
 ul{
     display: flex;
     list-style-type: none;
     gap: 16px;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
 }
 
 a{
     text-decoration: none;
     color : #ffffff;
-    flex-wrap : wrap;
 }
 
 .hero{
+    flex: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap : 30px;
-    margin-left: auto ;
-    margin-right: auto;
-    width: 1245px;
+    padding: 0 325px;
+    flex-wrap: wrap;
 }
 
 .left-element{
@@ -68,10 +70,13 @@ a{
     flex-wrap: wrap;
     gap: 16px;
     height: 300px;
+    flex : auto;
 }
 
 .hero img{
-    width: 1000px;
+    display: flex;
+    flex-shrink: 0 1 auto;
+    max-width: 1000px;
     height: 200px;
 }
 
@@ -115,6 +120,7 @@ button{
 }
 
 .information-container{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     gap : 52px;
@@ -141,15 +147,19 @@ button{
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
+    flex: auto;
+    width: auto;
 }
 
 .quote p{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
 }
 
 .author{
@@ -162,7 +172,7 @@ button{
 .card{
     border-radius: 12px;
     margin: 100px auto;
-    width: 1000px;
+    max-width: 1000px;
     background-color: #3882F6 ;
     padding: 15px 20px;
     display: flex;
@@ -170,6 +180,7 @@ button{
     justify-content: center;
     gap: 150px;
     padding : 40px 50px;
+    flex-shrink: 0 1 auto;
 }
 
 .card div{
@@ -183,6 +194,8 @@ button{
 
 
 .card button{
+    display: flex;
+    flex-wrap: nowrap;
     border: 2px solid #ffffff;
 }
 
